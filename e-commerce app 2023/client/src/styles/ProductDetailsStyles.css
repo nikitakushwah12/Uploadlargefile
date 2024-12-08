@@ -1,0 +1,119 @@
+.img {
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.container {
+  width: 940px;
+  margin: 20px auto 0;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.description {
+  margin-right: 40px;
+}
+.description h1 {
+  margin: 50px 0 10px 0;
+  font-weight: 600;
+  text-align: center;
+}
+.description h6 {
+  font-size: 15px;
+}
+.description .head {
+  margin-top: 10px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 25px;
+  color: #353535;
+}
+.description button {
+  font-size: 18px;
+  padding: 15px 50px;
+  margin-top: 40px;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  color: #fff;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.12);
+}
+.description .cart {
+  border: 3px solid #2e4c9f;
+  background-color: white;
+  color: black;
+  margin-right: 5px;
+
+  border-radius: 10px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.12);
+}
+.description .cart:hover {
+}
+.description .buy {
+  background-color: rgb(27, 27, 81);
+  border: 3px solid rgb(27, 27, 81);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.12);
+}
+.description .buy:hover {
+}
+#sph {
+  margin-left: 40px;
+  padding: 5px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+/* ************************* */
+.product-details {
+  margin-top: 100px !important;
+}
+
+.product-details-info {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.product-details-info h6 {
+  margin-bottom: 20px !important;
+}
+
+.similar-products .card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 18rem;
+}
+
+.similar-products .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.similar-products .card-price {
+  color: green;
+  font-weight: bold;
+}
+.similar-products button {
+  border-radius: 0;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.similar-products .card-text {
+  color: rgb(90, 89, 89);
+}
+
+.similar-products .card img:hover {
+  transform: scale(0.9);
+}
+
+.similar-products .card-img-top {
+  height: 300px !important;
+}
